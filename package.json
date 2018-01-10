@@ -1,0 +1,29 @@
+{
+  "name": "generator-activity",
+  "version": "1.0.0",
+  "description": "generate activity project structure by yeoman",
+  "main": "index.js",
+  "files": [
+    "app",
+    "page"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxuewen/generator-activity.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "xuxuewen <xxw.code@aliyun.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuxuewen/generator-activity/issues"
+  },
+  "homepage": "https://github.com/xuxuewen/generator-activity#readme",
+  "dependencies": {
+    "yeoman-generator": "^2.0.2"
+  }
+}
