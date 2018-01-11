@@ -1,6 +1,6 @@
 {
   "name": "generator-activity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generate activity project structure by yeoman",
   "main": "index.js",
   "files": [
