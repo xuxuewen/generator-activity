@@ -1,0 +1,17 @@
+{# 导入宏模块 #}
+{% from "../../common/layout/macro.njk" import head as headMacro %}
+{# 集成默认的布局模版 #}
+{% extends "../../common/layout/default_web.njk" %}
+
+{# head 模块 #}
+{% block Head %}
+  {# title,keywords,description,shareFlag,shareTitle,shareImgurl,shareUrl,shareDes #}
+  {{headMacro('web页面')}}
+{% endblock %}
+
+{# body 模块 #}
+{% block PageViewport %}
+
+  <img src="./images/logo.png" alt="">
+
+{% endblock %}
